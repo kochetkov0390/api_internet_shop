@@ -36,14 +36,20 @@ pip install -r requirements.txt
 __Выполнить миграции:__
 
 ```
-python3 manage.py migrate
+python manage.py migrate
+```
+__Создать суперюзера:__
+```
+python manage.py createsuperuser
 ```
 
 __Запустить проект:__
 
 ```
-python3 manage.py runserver
+python manage.py runserver
 ```
+Проект доступен по адресу http://127.0.0.1:8000/admin/
+
 __Примеры роутов:__
 
 ```
